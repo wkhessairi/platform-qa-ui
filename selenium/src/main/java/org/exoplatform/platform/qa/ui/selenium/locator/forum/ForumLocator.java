@@ -329,7 +329,7 @@ public class ForumLocator {
 	
     //Rate
     public static final String ELEMENT_FORUM_VOTE_MARK = "//*[@data-original-title='${star}']";
-	public String ELEMENT_POST_TITLE =".//*[@class='postViewTitle'][contains(text(),'${title}')]";
+	public static final String ELEMENT_POST_TITLE =".//*[@class='postViewTitle'][contains(text(),'${title}')]";
 	
 	//More Action menu
 	public static final By ELEMENT_EDIT_TOPIC = By.xpath(".//*[@id='UITopicDetail']//a[contains(text(),'Edit')]");
