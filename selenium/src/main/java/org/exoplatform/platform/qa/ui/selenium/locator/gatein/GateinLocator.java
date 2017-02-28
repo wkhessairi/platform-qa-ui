@@ -26,7 +26,7 @@ public final class GateinLocator {
   /*************************************
    * ANSWER PAGE
    ***************************************************************/
-  // Answer page
+  // answer page
   public static final String ELEMENT_ANSWER_EDIT_PORTLET_TAB = "//*[text()='$name']";
 
   // Permission tab
@@ -86,7 +86,7 @@ public final class GateinLocator {
   public static final By ELEMENT_MAIL_NEW_QUESTION_TAB =
           By.xpath("//button[text()='New Question']");
 
-  public static final By ELEMENT_MAIL_EDIT_ANSWER_TAB = By.xpath("//button[text()='Edit/Answer']");
+  public static final By ELEMENT_MAIL_EDIT_ANSWER_TAB = By.xpath("//button[text()='Edit/answer']");
 
   public static final By ELEMENT_MAIL_MOVE_QUESTION_TAB =
           By.xpath("//button[text()='Move Question']");
@@ -672,7 +672,7 @@ public final class GateinLocator {
 
   public static final By ELEMENT_APPLICATION_CONTENT_TAB = By.xpath("//*[@title='Content']");
 
-  public static final By ELEMENT_APPLICATION_ADMINISTRATION_TAB = By.xpath("//*[@title='Administration']");
+  public static final By ELEMENT_APPLICATION_ADMINISTRATION_TAB = By.xpath("//*[@title='administration']");
 
   public static final String ELEMENT_APPLICATION_SUB_TAB =
           ".//*[@id='UIApplicationList']//*[contains(@title,'${tabName}')]";

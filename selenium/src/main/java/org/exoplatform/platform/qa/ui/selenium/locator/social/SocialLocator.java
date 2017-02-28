@@ -174,7 +174,7 @@ public final class SocialLocator {
   public static final By ELEMENT_ACTIVITY_NOT_FOUND =
           By.xpath(".//*[@id='UIUserActivityStreamPortlet']//*[contains(text(),'Activity not found')]");
 
-  // Activity Answer
+  // Activity answer
   public static final String
           ELEMENT_ACTIVITY_ANSWER_POINT_NUMBER =
           ".//*[contains(@class,'sumaryPoint')]//*[contains(text(),'$number')]";
@@ -183,7 +183,7 @@ public final class SocialLocator {
           By.xpath(".//*[@data-original-title='no value yet']");
 
   public static final String ELEMENT_ACTIVITY_ANSWER_NUMBER =
-          ".//*[contains(text(),'$number Answer')]";
+          ".//*[contains(text(),'$number answer')]";
 
   public static final By ELEMENT_ACTIVITY_ANSWER_COMMENT_NO =
           By.xpath(".//*[contains(text(),'No Comment')]");
@@ -1536,7 +1536,7 @@ public final class SocialLocator {
           By.xpath(".//*[@class='tabName' and contains(text(),'Space Settings')]");
 
   public static final By ELEMENT_SPACE_MENU_ANSWER =
-          By.xpath(".//*[@class='tabName' and contains(text(),'Answer')]");
+          By.xpath(".//*[@class='tabName' and contains(text(),'answer')]");
 
   public static final String
           ELEMENT_SPACE_NAME =

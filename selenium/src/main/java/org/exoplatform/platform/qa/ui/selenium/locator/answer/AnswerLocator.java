@@ -18,7 +18,7 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see <http://www.gnu.org/licenses/>.
  */
-package org.exoplatform.platform.qa.ui.selenium.locator.Answer;
+package org.exoplatform.platform.qa.ui.selenium.locator.answer;
 
 import org.openqa.selenium.By;
 
@@ -104,7 +104,7 @@ public class AnswerLocator  {
 		
 	/*******************************************************************************************************************/
 
-	//Answer portlets
+	//answer portlets
 	public static final By ELEMENT_ANSWER_PORTLET = By.id("UIAnswersContainer");
 	public static final By ELEMENT_SUBMIT_QUESTION= By.xpath("//*[contains(@class,'uiIconAnsSubmitQuestion')]");
 	public static final By ELEMENT_CATEGORY_BUTTON= By.xpath("//*[@class='uiIconAnsManageCategory']");
@@ -135,7 +135,7 @@ public class AnswerLocator  {
 	public static final String ELEMENT_ADVANCE_SEARCH_RESULT_ITEM="//*[@id='AdvanceSearchForm']//*[contains(text(),'$name')]";
 	public static final By ELEENT_ADVANCE_SEARCH_CLOSE_RESULT_QUICK_SEARCH= By.id("//*[@class='resultQuickSearch']//*[text()='Close']");
 
-	public static final String ELEMENT_QUESTION_ANSWER_LINK="//*[contains(text(),'$question')]/../../..//*[@class='questionAction']//*[contains(text(),'Answer')]";
+	public static final String ELEMENT_QUESTION_ANSWER_LINK="//*[contains(text(),'$question')]/../../..//*[@class='questionAction']//*[contains(text(),'answer')]";
 	public static final By ELEMENT_QUESTION_RESPONE_FORM= By.xpath(".//*[@id='UIResponseForm']");
 	
 	
@@ -143,7 +143,7 @@ public class AnswerLocator  {
 	public static final By ELEMENT_MANAGE_QUESTION_FORM= By.id("FAQQuestionManagerment");
 	public static final By ELEMENT_MANAGE_QUESTION_FORM_ALL_QUESTION_TAB= By.xpath("//*[@data-toggle='tab' and text()='All Questions']");
 	public static final By ELEMENT_MANAGE_QUESTION_FORM_OPEN_QUESTION_TAB= By.xpath("//*[@data-toggle='tab' and text()='Open Questions']");
-	public static final String ELEMENT_MANAGE_QUESTION_ANSWER_QUESTION="//*[text()='$question']/..//*[@data-original-title='Answer']";
+	public static final String ELEMENT_MANAGE_QUESTION_ANSWER_QUESTION="//*[text()='$question']/..//*[@data-original-title='answer']";
 	public static final String ELEMENT_MANAGE_QUESTION_EDIT_QUESTION="//*[text()='$question']/..//*[@data-original-title='Edit']";
 	public static final String ELEMENT_MANAGE_QUESTION_DELETE_QUESTION="//*[text()='$question']/../..//*[@data-original-title='Delete']";
 	public static final String ELEMENT_MANAGE_QUESTION_APPROVE_QUESTION_CHECKBOX="//*[text()='$question']/..//*[@data-original-title='Approve' or @data-original-title='Disapprove']//*[@id='allDay']";
@@ -189,7 +189,7 @@ public class AnswerLocator  {
 	//Comment question form
 	public static final By ELEMENT_QUESTION_COMMENT_FORM= By.id("UICommentForm");
 
-	//Answer question form
+	//answer question form
 	public static final By ELEMENT_QUESTION_ANSWER_FORM= By.id("UIAnswersPopupWindow");
 
 	//Edit question form
@@ -214,8 +214,8 @@ public class AnswerLocator  {
 	public static final String ELEMENT_QUESTION_RATE_ITEM="//*[@data-original-title='Rate Question']/*[@data-index='$index']";
 	public static final String ELEMENT_QUESTION_RATE_NUMBER="//*[contains(@class,'voteResult')]//*[contains(text(),'$index')]";
 	
-	//Answer form
-	public static final By ELEMENT_ANSWER_BUTTON= By.xpath("//*[@class='questionAction']//*[text()='Answer']");
+	//answer form
+	public static final By ELEMENT_ANSWER_BUTTON= By.xpath("//*[@class='questionAction']//*[text()='answer']");
 	public static final By ELEMENT_ANSWER_FORM= By.id("UIResponseForm");
 	public static final By ELEMENT_ANSWER_FORM_DATA_FRAME_INPUT= By.xpath("//*[@class='cke_wysiwyg_frame cke_reset']");
 	public static final By ELEMENT_ANSWER_APPROVE_CHECKBOX= By.id("QuestionApproved");
@@ -225,17 +225,17 @@ public class AnswerLocator  {
 	public static final By ELEMENT_ANSWER_FORM_CANCEL_BUTTON= By.xpath(".//*[@id='UIResponseForm']//button[2]");
 
 	//More actions
-	public static final String ELEMENT_ANSWER_MORE_ACTION_BUTTON="//*[@class='responseContainer']//*[contains(@id,'Answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconSettings uiIconLightGray']";
-	public static final String ELEMENT_ANSWER_EDIT_BUTTON="//*[@class='responseContainer']//*[contains(@id,'Answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconLightGray uiIconEdit']";
-	public static final String ELEMENT_ANSWER_APPROVE_BUTTON="//*[@class='responseContainer']//*[contains(@id,'Answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconLightGray uiIconEdit']";
-	public static final String ELEMENT_ANSWER_DISAPPROVE_BUTTON="//*[@class='responseContainer']//*[contains(@id,'Answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconAnsLightGray uiIconAnsDisapprove']";
-	public static final String ELEMENT_ANSWER_ACTIVE_BUTTON="//*[@class='responseContainer']//*[contains(@id,'Answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconAnsLightGray uiIconAnsEnable']";
-	public static final String ELEMENT_ANSWER_DEACTIVE_BUTTON="//*[@class='responseContainer']//*[contains(@id,'Answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconAnsLightGray uiIconAnsEnable']";
-	public static final String ELEMENT_ANSWER_DELETE_BUTTON="//*[@class='responseContainer']//*[contains(@id,'Answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconLightGray uiIconTrash']";
+	public static final String ELEMENT_ANSWER_MORE_ACTION_BUTTON="//*[@class='responseContainer']//*[contains(@id,'answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconSettings uiIconLightGray']";
+	public static final String ELEMENT_ANSWER_EDIT_BUTTON="//*[@class='responseContainer']//*[contains(@id,'answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconLightGray uiIconEdit']";
+	public static final String ELEMENT_ANSWER_APPROVE_BUTTON="//*[@class='responseContainer']//*[contains(@id,'answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconLightGray uiIconEdit']";
+	public static final String ELEMENT_ANSWER_DISAPPROVE_BUTTON="//*[@class='responseContainer']//*[contains(@id,'answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconAnsLightGray uiIconAnsDisapprove']";
+	public static final String ELEMENT_ANSWER_ACTIVE_BUTTON="//*[@class='responseContainer']//*[contains(@id,'answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconAnsLightGray uiIconAnsEnable']";
+	public static final String ELEMENT_ANSWER_DEACTIVE_BUTTON="//*[@class='responseContainer']//*[contains(@id,'answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconAnsLightGray uiIconAnsEnable']";
+	public static final String ELEMENT_ANSWER_DELETE_BUTTON="//*[@class='responseContainer']//*[contains(@id,'answer')]//*[text()='$answer']/../../../../..//*[@class='uiIconLightGray uiIconTrash']";
 	
-	//Answer container
-	public static final String ELEMENT_ANSWER_AUTHOR="//*[contains(@id,'Answer')]//*[text()='$answer']/../..//*[@class='userName' and contains(text(),'$fullname')]";
-	public static final String ELEMENT_ANSWER_CONTENT="//*[contains(@id,'Answer')]//*[text()='$answer']";
+	//answer container
+	public static final String ELEMENT_ANSWER_AUTHOR="//*[contains(@id,'answer')]//*[text()='$answer']/../..//*[@class='userName' and contains(text(),'$fullname')]";
+	public static final String ELEMENT_ANSWER_CONTENT="//*[contains(@id,'answer')]//*[text()='$answer']";
 
 	//Delete 
 	public static final By ELEMENT_ANSWER_DELETE_CONFIRM_POPUP= By.id("UIForumPopupConfirmation");
@@ -244,11 +244,11 @@ public class AnswerLocator  {
 	public static final By ELEMENT_ANSWER_DELETE_FORM_CANCEL_BUTTON= By.xpath("//*[@id='UIForumPopupConfirmation']//*[text()='Cancel']");
 
 	//vote answer
-	public static final String ELEMENT_ANSWER_VOTE_ICON = "//*[@class='responseContainer']//*[contains(@id,'Answer')]//*[text()='$answer']/../../..//*[contains(@id, 'FAQVoteAnswerUp')]";
-	public static final String ELEMENT_ANSWER_UNVOTE_ICON = "//*[@class='responseContainer']//*[contains(@id,'Answer')]//*[text()='$answer']/../../..//*[contains(@id, 'FAQVoteAnswerDown')]";
-	public static final String ELEMENT_ANSWER_NUMBER_VOTE = "//*[@class='responseContainer']//*[contains(@id,'Answer')]//*[text()='$answer']/../../..//*[@class='textVoteAnswer']";
+	public static final String ELEMENT_ANSWER_VOTE_ICON = "//*[@class='responseContainer']//*[contains(@id,'answer')]//*[text()='$answer']/../../..//*[contains(@id, 'FAQVoteAnswerUp')]";
+	public static final String ELEMENT_ANSWER_UNVOTE_ICON = "//*[@class='responseContainer']//*[contains(@id,'answer')]//*[text()='$answer']/../../..//*[contains(@id, 'FAQVoteAnswerDown')]";
+	public static final String ELEMENT_ANSWER_NUMBER_VOTE = "//*[@class='responseContainer']//*[contains(@id,'answer')]//*[text()='$answer']/../../..//*[@class='textVoteAnswer']";
 	public static final By ELEMENT_SORT_BY_RATE = By.xpath("//a[@data-original-title='Sort Answers by Rate']");
-	public static final String ELEMENT_ANSWER_POSITION_IN_LIST = "//*[@class='responseContainer']//*[contains(@id,'Answer')][${no}]//*[text()='${answer}']";
+	public static final String ELEMENT_ANSWER_POSITION_IN_LIST = "//*[@class='responseContainer']//*[contains(@id,'answer')][${no}]//*[text()='${answer}']";
 	
 	/***********************COMMENT MANANGEMENT****************************************************/
 	//Comment form

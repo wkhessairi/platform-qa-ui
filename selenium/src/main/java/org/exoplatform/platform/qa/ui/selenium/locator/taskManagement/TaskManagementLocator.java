@@ -1,4 +1,4 @@
-package org.exoplatform.platform.qa.ui.selenium.locator.TaskManagement;
+package org.exoplatform.platform.qa.ui.selenium.locator.taskManagement;
 import org.openqa.selenium.By;
 
 /**

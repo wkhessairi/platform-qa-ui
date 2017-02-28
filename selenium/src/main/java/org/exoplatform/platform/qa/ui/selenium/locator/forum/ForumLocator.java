@@ -315,7 +315,7 @@ public class ForumLocator {
 	public static final By ELEMENT_PERM_ADD_BTN= By.xpath("//*[contains(@id,'Permission')]//*[contains(@class,'addButton')]");
 	
 	/***************************************************TOPIC MANAGEMENT************************************************************************/
-	public By ELEMENT_POST_REPLY = By.xpath("//*[@id='UITopicDetail']//*[@class='pull-left actionContainer']/a[contains(text(),'Post Reply')]");
+	public static final By ELEMENT_POST_REPLY = By.xpath("//*[@id='UITopicDetail']//*[@class='pull-left actionContainer']/a[contains(text(),'Post Reply')]");
 	public static final String ELEMENT_TOPIC_POST_TITLE = "//*[@class='postViewTitle']/..//*[contains(text(),'${name}')]";
 	public static final String ELEMENT_TOPIC_POST_CONTENT = "//*[@class='postContentContainer']/..//*[contains(text(),'${name}')]";
 	//Action bar

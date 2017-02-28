@@ -18,7 +18,7 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see <http://www.gnu.org/licenses/>.
  */
-package org.exoplatform.platform.qa.ui.selenium.locator.Administration;
+package org.exoplatform.platform.qa.ui.selenium.locator.administration;
 
 import org.openqa.selenium.By;
 
@@ -131,7 +131,7 @@ public class AdministrationLocator {
 
 	// Explorer, views
 	public static final By ELEMENT_ECM_EXPLORER_VIEWS_ADD_VIEWS = By.xpath("//*[@class='UIViewList']//*[contains(text(),'Add View')]");
-	public By ELEMENT_ECM_EXPLORER_NAME_VIEW_FORM = By.xpath("//*[@id='viewName']");
+	public static final By ELEMENT_ECM_EXPLORER_NAME_VIEW_FORM = By.xpath("//*[@id='viewName']");
 
 	public static final String ELEMENT_ECM_EXPLORER_CHOOSE_TAB_CATEGORY_VIEW_FORM ="//*[contains(text(),'{$tab}')and @class='control-label']/../div/span/input";
 	public static final By ELEMENT_ECM_EXPLORE_TAB_NAME_VIEW_FORM = By.xpath("//*[@id='tabName']");
